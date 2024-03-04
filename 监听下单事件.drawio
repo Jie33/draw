@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T06:34:49.634Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="PbO-FcF3aB9BllDxZkJ_" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T06:38:37.349Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="StgRHQyYw6l_SEcuxIAf" version="24.0.0" type="github">
   <diagram name="第 1 页" id="1bkn0Ovkejx9ZDLXdHxm">
-    <mxGraphModel dx="1687" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,20 +58,25 @@
         </mxCell>
         <mxCell id="W5AzSV3STd5MCS2JKmGn-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="W5AzSV3STd5MCS2JKmGn-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1620" y="610" as="targetPoint" />
+            <mxPoint x="1620" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W5AzSV3STd5MCS2JKmGn-18" value="设置支付方式为支付宝" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1470" y="148" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="W5AzSV3STd5MCS2JKmGn-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W5AzSV3STd5MCS2JKmGn-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="W5AzSV3STd5MCS2JKmGn-20" value="设置支付方式为银行卡" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="1470" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W5AzSV3STd5MCS2JKmGn-28" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="200" y="150" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W5AzSV3STd5MCS2JKmGn-29" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="200" y="520" width="100" height="60" as="geometry" />
+          <mxGeometry x="200" y="540" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W5AzSV3STd5MCS2JKmGn-30" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="785" y="238" width="30" height="30" as="geometry" />
@@ -119,33 +124,10 @@
         <mxCell id="W5AzSV3STd5MCS2JKmGn-45" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1265" y="178" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W5AzSV3STd5MCS2JKmGn-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W5AzSV3STd5MCS2JKmGn-20" target="W5AzSV3STd5MCS2JKmGn-29">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="550" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="W5AzSV3STd5MCS2JKmGn-56" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1620" y="610" as="sourcePoint" />
-            <mxPoint x="1390" y="610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="W5AzSV3STd5MCS2JKmGn-57" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1390" y="610" as="sourcePoint" />
-            <mxPoint x="1390" y="550" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="W5AzSV3STd5MCS2JKmGn-59" value="" style="endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+        <mxCell id="W5AzSV3STd5MCS2JKmGn-59" value="" style="endArrow=classic;html=1;rounded=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="W5AzSV3STd5MCS2JKmGn-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="470" as="sourcePoint" />
-            <mxPoint x="1530" y="470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="W5AzSV3STd5MCS2JKmGn-60" value="" style="endArrow=none;startArrow=classic;html=1;rounded=0;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="W5AzSV3STd5MCS2JKmGn-20">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="890" y="460" as="sourcePoint" />
-            <mxPoint x="1530" y="470" as="targetPoint" />
+            <mxPoint x="1430" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W5AzSV3STd5MCS2JKmGn-62" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -155,10 +137,16 @@
           <mxGeometry x="1345" y="396" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W5AzSV3STd5MCS2JKmGn-65" value="Y 保存实名验证记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1429" y="220" width="130" height="30" as="geometry" />
+          <mxGeometry x="1429" y="260" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W5AzSV3STd5MCS2JKmGn-66" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="405" y="318" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W5AzSV3STd5MCS2JKmGn-67" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="W5AzSV3STd5MCS2JKmGn-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1620" y="570" as="sourcePoint" />
+            <mxPoint x="900" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
