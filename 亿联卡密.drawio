@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T06:52:02.463Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.4" etag="k6yDWBzTFbqEyWfVeCyO" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T07:50:43.232Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="pM7cTeaNPBKyqMCR4G8Q" version="24.0.4" type="github">
   <diagram name="第 1 页" id="KajDN08Tf7G81tLi05nM">
-    <mxGraphModel>
+    <mxGraphModel dx="1259" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zZfyfCtPFlMrosDUSouT-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZfyfCtPFlMrosDUSouT-1" target="zZfyfCtPFlMrosDUSouT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-1" value="开始下单" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZfyfCtPFlMrosDUSouT-4" target="zZfyfCtPFlMrosDUSouT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-4" value="是否生成卡密" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="490" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZfyfCtPFlMrosDUSouT-5" target="zZfyfCtPFlMrosDUSouT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-5" value="接收业务id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZfyfCtPFlMrosDUSouT-6" target="zZfyfCtPFlMrosDUSouT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-6" value="构建卡密" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZfyfCtPFlMrosDUSouT-8" target="zZfyfCtPFlMrosDUSouT-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="zZfyfCtPFlMrosDUSouT-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-8" value="重复校验" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="490" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZfyfCtPFlMrosDUSouT-9" target="zZfyfCtPFlMrosDUSouT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-9" value="卡密表添加一条记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zZfyfCtPFlMrosDUSouT-10" target="zZfyfCtPFlMrosDUSouT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-10" value="卡密业务表绑定卡密和业务订单的关系" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-11" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="920" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="zZfyfCtPFlMrosDUSouT-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="460" as="sourcePoint" />
+            <mxPoint x="730" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-21" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="638" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zZfyfCtPFlMrosDUSouT-22" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="595" y="586" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
